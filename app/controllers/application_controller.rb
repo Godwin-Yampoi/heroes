@@ -4,4 +4,4 @@ class ApplicationController < ActionController::API
         render json: { error: 'Route not found' }, status: :not_found
       end
     
-en
+    end
